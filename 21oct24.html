@@ -12,6 +12,18 @@
     elem.style.height = '200px'
     elem.style.backgroundColor = 'red'
     document.body.append(elem)
+
+ for(let i=0; i<3; i++) {
+    let elem2 = document.createElement('div')
+    elem2.innerText = names[i];
+    document.body.append(elem2);
+}
+
+for(let i=0; i<3; i++) {
+    let elem3 = document.createElement('div')
+    elem3.innerText = population[i];
+    document.body.append(elem3);
+}
     </script>
 </body>
 </html>
