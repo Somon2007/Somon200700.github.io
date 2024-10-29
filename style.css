@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url('./images/Surface-Pro-8-1.png');
+}
+
 header .first {
     width: 100%;
 }
